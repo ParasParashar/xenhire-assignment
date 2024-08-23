@@ -35,7 +35,7 @@ const Testimonials = () => {
       <div className="w-full flex items-center">
         <IoIosArrowBack
           size={28}
-          className="bg-blue-500 text-white rounded-full cursor-pointer"
+          className="bg-blue-500 text-white rounded-full cursor-pointer hover:bg-blue-700"
           onClick={() => scroll("left")}
         />
         <div
@@ -48,7 +48,7 @@ const Testimonials = () => {
         </div>
         <IoIosArrowForward
           size={28}
-          className="bg-blue-500 text-white rounded-full cursor-pointer"
+          className="bg-blue-500 text-white rounded-full cursor-pointer hover:bg-blue-700"
           onClick={() => scroll("right")}
         />
       </div>
