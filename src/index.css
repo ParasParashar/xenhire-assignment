@@ -5,3 +5,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.main-scrollbar::-webkit-scrollbar {
+  background-color: transparent;
+  width: 10px;
+  height: 8px;
+  border-radius: 2px;
+}
+.main-scrollbar::-webkit-scrollbar-track {
+ background-color:  transparent;
+}
+.main-scrollbar::-webkit-scrollbar-thumb {
+  @apply    bg-sky-200 rounded-lg transition-all duration-200  hover:bg-sky-400/70 ;
+}

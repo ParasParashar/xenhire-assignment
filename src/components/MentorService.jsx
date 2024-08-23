@@ -1,4 +1,3 @@
-import React from "react";
 import { mentorHelp } from "../utils/dummy-data";
 
 const MentorService = () => {
