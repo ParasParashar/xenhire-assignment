@@ -6,7 +6,7 @@ import Problems from "./components/Problems";
 
 const App = () => {
   return (
-    <div className="flex flex-col  items-center gap-2 justify-center w-full h-full lg:px-28">
+    <div className="flex flex-col  items-center gap-2 justify-center w-full h-full px-4 md:px-10 lg:px-32">
       <Header />
       <Hero />
       <Problems />

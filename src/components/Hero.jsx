@@ -1,10 +1,11 @@
+import HeroSectionImage from "./HeroSectionImage";
 import TextEffect from "./TextEffect";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col py-10 px-2 w-full  md:flex-row gap-3 items-center  justify-between">
+    <section className="flex flex-col  px-2 w-full  md:flex-row gap-3 items-center  justify-between">
       {/* left part of the hero section details part */}
-      <div className="flex flex-col gap-5 w-full md:w-1/2 ">
+      <div className="flex flex-col gap-5 w-full md:w-1/2  md:p-5">
         <h2 className="text-3xl md:text-5xl font-bold text-[#1c2739]">
           Prepare for the interviews with a <TextEffect /> mentor
         </h2>
@@ -36,6 +37,7 @@ const Hero = () => {
         </div>
       </div>
       {/* right part of the hero section images part */}
+      <HeroSectionImage />
     </section>
   );
 };
