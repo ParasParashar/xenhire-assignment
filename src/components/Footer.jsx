@@ -17,7 +17,7 @@ const Footer = () => {
       </section>
 
       {/* middle section */}
-      <section className=" flex items-center justify-between py-10 px-10  bg-[#bedbfd] px-32">
+      <section className=" flex items-center justify-between py-10 px-8 md:px-10 bg-[#bedbfd] lg:px-32">
         <p className=" text-lg sm:text-2xl font-semibold space-x-4">
           Still Have Doubts ?
         </p>
