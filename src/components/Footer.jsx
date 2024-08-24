@@ -6,8 +6,8 @@ const Footer = () => {
   return (
     <footer className=" flex flex-col ">
       {/* top section */}
-      <section className=" flex flex-col gap-2 sm:flex-row items-center justify-between p-10 px-32  bg-[#f0f9fe]">
-        <p className=" flex flex-col gap-2 ">
+      <section className=" flex flex-col gap-2 sm:flex-row items-center justify-between p-10 lg:px-32  bg-[#f0f9fe]">
+        <p className=" flex flex-col gap-2 text-gray-500 ">
           <span>Prepare for your next interview</span>
           <span>with mentors from top companies</span>
         </p>
